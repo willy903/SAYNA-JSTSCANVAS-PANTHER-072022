@@ -1,0 +1,102 @@
+.wakandaforever {
+    margin-top: -50px;
+    width: 100%;
+    background-image: url("../IllustrationsLogo/Wakanda/Pantherwakanda1.png");
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+
+.sl {
+    width: 27px;
+}
+
+.marvl {
+    width: 70px;
+}
+
+.cont {
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.cont h1 {
+    font-family: Panthera;
+    color: #DF99F2;
+    font-size: 68px;
+}
+
+.cont h2 {
+    margin-top: 3%;
+    font-family: wakandaForever;
+    font-size: 40px;
+    color: #DF99F2;
+}
+
+.cont p {
+    margin-top: 3%;
+    font-family: Cantarell_Regular;
+    color: white;
+    width: 450px;
+    font-size: 14px;
+    padding-bottom: 14%;
+}
+
+
+/* section2 */
+
+.section2 {
+    background-image: url("../IllustrationsLogo/Wakanda/Pantherwakanda2.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.Paragraphes {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.aligne {
+    width: 530px;
+}
+
+.aligne h1 {
+    padding-top: 20px;
+    font-family: beyeno;
+    color: #DF99F2;
+    font-size: 25px;
+}
+
+.aligne p {
+    font-family: Cantarell_Regular;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.aligne2 {
+    display: none;
+}
+
+.lien-video {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 260px;
+    background-color: #3D2DA6;
+}
+
+.anecdote img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.dess {
+    display: none;
+}

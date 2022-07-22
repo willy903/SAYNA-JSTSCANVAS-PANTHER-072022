@@ -1,0 +1,156 @@
+/* debut milaje */
+
+.milaje {
+    background-image: url("../IllustrationsLogo/Enigme/Pantherenigme1.png");
+    background-size: 50%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.milaje .presentation {
+    margin-top: 6%;
+    width: 50%;
+    border-bottom: 5px solid #9E91B7;
+}
+
+.milaje .presentation h1 {
+    font-family: beyeno;
+    color: #DF99F2;
+    width: 300px;
+}
+
+.presentation .text-enarc {
+    background-image: url("../IllustrationsLogo/Enigme/Pantherenigme2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.presentation .text-enarc .containeurp p {
+    font-family: Cantarell_Regular;
+    color: white;
+    font-size: 1vw;
+}
+
+.presentation .text-enarc .containeurp {
+    margin: 120px auto;
+    /* width:500px; */
+    width: calc(80% - 50px);
+}
+
+
+/* fin milaje */
+
+.suite {
+    width: 100%;
+    padding-bottom: 141px;
+}
+
+.suite .first {
+    font-family: wakandaForever;
+    color: #DF99F2;
+    width: 65%;
+    margin-left: 165px;
+    padding-top: 100px;
+}
+
+.container-suite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-suite .content {
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 165px;
+    color: white;
+}
+
+.container-suite .content h1 {
+    font-family: byeno;
+    color: #fff;
+    font-size: 14px;
+}
+
+.content {
+    height: 50vh;
+}
+
+.content1 p {
+    margin-top: 25px;
+    width: 66%;
+}
+
+.content1 p span {
+    font-family: wakandaForever;
+}
+
+.content2 {
+    background-image: url("../IllustrationsLogo/Enigme/Pantherenigme2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    align-items: center;
+    width: 50%;
+}
+
+.content2 p {
+    margin: 20% auto;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* formulaire */
+
+.form {
+    padding-top: 100px;
+}
+
+.form form label {
+    display: block;
+}
+
+.form form input[type="text"] {
+    display: block;
+    margin-top: 10px;
+    width: 330px;
+    border-radius: 38px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #DF99F2;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-envoyer {
+    width: 174px;
+    height: 54px;
+    border-radius: 30px;
+    padding: 15px;
+    outline: none;
+    border-radius: 38px;
+    border: none;
+    background-color: #9E91B7;
+    margin: 40px 80px;
+    font-family: beyeno;
+}
+
+.btn-envoyer:hover {
+    box-shadow: 0px 0px 10px hsl(300, 20%, 88%);
+}
+
+.desactive {
+    display: none;
+}
