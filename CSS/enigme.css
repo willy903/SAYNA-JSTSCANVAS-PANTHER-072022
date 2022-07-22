@@ -1,5 +1,9 @@
 /* debut milaje */
 
+.text-justifier {
+    text-align: justify;
+}
+
 p {
     font-family: Cantarell_Regular;
 }
@@ -12,12 +16,12 @@ p {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    height: 550px;
 }
 
 .milaje .presentation {
     margin-top: 6%;
     width: 50%;
-    border-bottom: 5px solid #9E91B7;
 }
 
 .milaje .presentation h1 {
@@ -26,17 +30,45 @@ p {
     width: 300px;
 }
 
+.containeurlogI {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.containeurlogI .blocBP {
+    width: 40px;
+}
+
+.borderGradienBand {
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, rgba(182, 182, 182, 0.1881127450980392) 6%, rgba(167, 167, 167, 0.07326680672268904) 100%) 1;
+}
+
+.containeurlogI .bande {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
 .presentation .text-enarc {
     background-image: url("../IllustrationsLogo/Enigme/Pantherenigme2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 55vh;
     width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
 }
 
 .presentation .text-enarc .containeurp p {
@@ -69,6 +101,11 @@ p {
     color: #9E91B7;
     font-size: 20px;
     text-decoration: underline;
+}
+
+.levelup {
+    font-family: Arial;
+    font-weight: 600;
 }
 
 .content1 p {
