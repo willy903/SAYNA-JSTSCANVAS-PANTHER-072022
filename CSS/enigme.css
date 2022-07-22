@@ -1,5 +1,9 @@
 /* debut milaje */
 
+p {
+    font-family: Cantarell_Regular;
+}
+
 .milaje {
     background-image: url("../IllustrationsLogo/Enigme/Pantherenigme1.png");
     background-size: 50%;
@@ -51,48 +55,39 @@
 /* fin milaje */
 
 .suite {
-    width: 100%;
-    padding-bottom: 141px;
-}
-
-.suite .first {
-    font-family: wakandaForever;
-    color: #DF99F2;
-    width: 65%;
-    margin-left: 165px;
-    padding-top: 100px;
-}
-
-.container-suite {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.container-suite .content {
-    width: 60%;
-    margin-top: 70px;
-    margin-left: 165px;
-    color: white;
+.allcontent {
+    width: 600px;
 }
 
-.container-suite .content h1 {
-    font-family: byeno;
-    color: #fff;
-    font-size: 14px;
-}
-
-.content {
-    height: 50vh;
+.content1 h1 {
+    font-family: beyeno;
+    color: #9E91B7;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .content1 p {
     margin-top: 25px;
-    width: 66%;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content1 .enonce {
+    font-size: 14px;
 }
 
 .content1 p span {
     font-family: wakandaForever;
+}
+
+.content1 .violet {
+    color: #9E91B7;
 }
 
 .content2 {
@@ -102,27 +97,38 @@
     background-position: top center;
     align-items: center;
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-.content2 p {
-    margin: 20% auto;
-    width: 80%;
-    text-align: center;
-    font-size: 14px;
+.content2-bloc {
+    width: 470px;
+    position: relative;
+    top: 150px;
+}
+
+.content2-bloc p span {
+    font-family: wakandaForever;
+}
+
+.content2-bloc p {
+    font-size: 16px;
+    color: #fff;
 }
 
 
 /* formulaire */
 
-.form {
-    padding-top: 100px;
+.valideReponse {
+    margin-top: 50px;
 }
 
-.form form label {
+.valideReponse label {
     display: block;
+    color: #fff;
 }
 
-.form form input[type="text"] {
+.valideReponse input[type="text"] {
     display: block;
     margin-top: 10px;
     width: 330px;
@@ -135,10 +141,10 @@
 }
 
 .btn-envoyer {
-    width: 174px;
-    height: 54px;
+    width: 170px;
+    height: 50px;
     border-radius: 30px;
-    padding: 15px;
+    padding: 12px;
     outline: none;
     border-radius: 38px;
     border: none;
@@ -149,8 +155,4 @@
 
 .btn-envoyer:hover {
     box-shadow: 0px 0px 10px hsl(300, 20%, 88%);
-}
-
-.desactive {
-    display: none;
 }
