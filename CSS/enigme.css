@@ -193,3 +193,55 @@ p {
 .btn-envoyer:hover {
     box-shadow: 0px 0px 10px hsl(300, 20%, 88%);
 }
+
+
+/* popup success */
+
+.popUgood,
+.popUPTerminer {
+    width: 600px;
+    height: 400px;
+    background: #021740fa;
+    filter: blur(50px 50px 60px linear-gradient(180deg, #3D2DA6 25%, #021740fa 51%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 21px 50px #021740fa;
+}
+
+.gameSuccess {
+    width: 400px;
+    background: linear-gradient(180deg, #9E91B7 10%, #061a448e 60%);
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.gameSuccess h1 {
+    color: #fff;
+}
+
+.gameSuccess p {
+    color: #fff;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.gameSuccess button {
+    height: 50px;
+    border-radius: 30px;
+    padding: 12px;
+    outline: none;
+    border-radius: 38px;
+    border: none;
+    background-color: #F2CEF2;
+    margin: 40px 80px;
+    font-weight: 600;
+    color: #021740;
+    font-family: Cantarell_Regular;
+    width: 260px;
+}

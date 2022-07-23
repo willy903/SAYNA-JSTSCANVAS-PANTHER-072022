@@ -8,6 +8,7 @@
     <title>PANTHER T4SU</title>
     <link rel="stylesheet" href="CSS/policie.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
     <style>
         @media (min-width: 768px) and (max-width: 1024px) {
             .container-gazet {
@@ -135,9 +136,10 @@
         </div>
         <!-- slider -->
         <div class="slider">
+            <button class="rond">></button>
             <div class="conteneur_slider">
-                <div class="slide">
-                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome2.png" alt="" width="100%" height="auto"></div>
+                <div class="slide slide1">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_1.png" alt="" width="100%" height="auto"></div>
                     <div class="Rightcard">
                         <h1>KILLMONGER</h1>
                         <p>La sauvagerie de N'Jadaka alors qu'il servait dans une unité d'opérations noires de l'armée américaine lui a valu le surnom de Killmonger. D’origine Wakandaise, et se sentant abandoné par sa nation, il cherche à détroner T’Challa
@@ -145,24 +147,91 @@
                         <a href="">Voir plus ></a>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome3.png" alt="" width="100%" height="auto"></div>
+                <div class="slide slide2">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_2.png" alt="" width="100%" height="auto"></div>
                     <div class="Rightcard">
                         <h1>OKOYE</h1>
                         <p>Okoye est le général des Dora Milaje (groupe d’élite de femmes guerrières) et le chef des forces armées et des renseignements wakandais. Témoin du couronnement de T'Challa, elle se joint à lui dans de nombreuses aventures.</p>
                         <a href="">Voir plus ></a>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome4.png" alt="" width="100%" height="auto"></div>
-                    <div class="Rightcard"></div>
+                <div class="slide slide3">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_3.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>SHURI</h1>
+                        <p>Shuri est la Princesse du Wakanda, la fille de T'Chaka et de Ramonda, la sœur de T'Challa et la leader du Groupe de Design du Wakanda. Innovatrice, elle est chargée de créer une grande partie de la technologie moderne du Wakanda
+                            ainsi que les Habits de la Panthère</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide4">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_4.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>NAKIA</h1>
+                        <p>Nakia est une membre des Chiens de Guerre et l'amoureuse de T'Challa. Elle est souvent en mission à travers le monde, assistant aux grandes détresses de nombreux peuples et commence à croire avec force que le Wakanda pourrait activement
+                            les aider</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide5">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_5.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>RAMONDA</h1>
+                        <p>Ramonda est la Reine Mère du Wakanda, épouse de T'Chaka et mère de T'Challa et Shuri. Elle se tenait aux côtés de son fils quand il devint le Roi du Wakanda, mais fut forcée de partir en exil lorsque Erik Killmonger vainquit T'Challa
+                            et prit le contrôle du trône</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide6">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_6.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>W’kabi</h1>
+                        <p>W'Kabi est l'ancien chef de la sécurité pour la Tribu de la Porte du Wakanda ainsi que l'ancien meilleur ami de T'Challa. Ayant perdu la foi en son roi pour avoir échouer à capturer Ulysses Klaue, l'homme responsable de la mort
+                            de ses parents, W'Kabi apporta son soutien à Erik Killmonger et lui permit de prendre le trône du Wakanda</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide7">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_7.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>m’baku</h1>
+                        <p>M'Baku est le chef de la Tribu Jabari, un groupe de Wakandais qui s'étaient écartés de la société principale du Wakanda et un fervant opposant du pouvoir de T'Challa, mais échoua à le vaincre lors de l'affrontement rituel pour
+                            le trône, avant de l'aider à défendre le Wakanda face à Erik Killmonger.</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide8">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_8.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>OKOYE</h1>
+                        <p>Okoye est le général des Dora Milaje (groupe d’élite de femmes guerrières) et le chef des forces armées et des renseignements wakandais. Témoin du couronnement de T'Challa, elle se joint à lui dans de nombreuses aventures.</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide9">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_9.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>ZURI</h1>
+                        <p>Zuri était un ancien membre des Chiens de Guerre et un shaman Wakandais, loyal conseiller de son Roi. Après avoir gardé les secrets de T'Chaka à propos de sa gestion de la mort de N'Jobu dans le passé, Zuri continua à soutenir
+                            le Roi du Wakanda alors que T'Challa reprenait le trône.</p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="slide slide10">
+                    <div class="leftcard"><img src="IllustrationsLogo/Accueil/Pantherhome_slider_10.png" alt="" width="100%" height="auto"></div>
+                    <div class="Rightcard">
+                        <h1>EVERETT KENNETH ROSS</h1>
+                        <p>L'Agent Everett Ross est un agent de la CIA et un ancien Commissaire Exécutif à l'Antiterrorisme pour la Force Conjointe AntiTerroriste. Après avoir quitté la Force Conjointe AntiTerroriste, Ross fut chargé de traquer et neutraliser
+                            Ulysses Klaue, ce qui plaça Ross sur le chemin de Black Panther, qui cherchait à capturer de nouveau Klaue pour ses crimes passés.</p>
+                        <a href="">Voir plus ></a>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- fin slider -->
         <!-- debut long text -->
         <div class="container-gazet">
-            <div class="conten1">
+            <div class="conten1 caherOUIleft">
                 <h1>Naissance d’un prince</h1>
                 <p>T'Challa est né au Wakanda, un pays isolationniste situé en Afrique, du monarque régnant T'Chaka et de sa femme Ramonda. Il a finalement eu une sœur cadette nommée Shuri. S'entraînant toute sa vie pour prendre la place de son père en tant
                     que prochain Black Panther, T'Challa est devenu un homme avec un esprit très actif et malgré tous les efforts de T'Chaka, une grande aversion pour la politique.</p>
@@ -199,7 +268,7 @@
 
             </div>
             <div class="ttft">
-                <div class="conten2">
+                <div class="conten2 caherOUIright">
                     <div class="card">
                         <div class="pdp-chala">
                             <img src="IllustrationsLogo/Accueil/Pantherhome5.png" alt="Avatar">
@@ -229,23 +298,23 @@
             </div>
         </div>
     </div>
-    <div class="contact-us">
+    <div class="contact-us trasnlasteObserver translateYanimeOUI">
         <div class="form_conatctus">
-            <form action="">
+            <form action="" id="myform">
                 <h3>Besoin de l’intervention du Wakanda ?</h3>
                 <h1>Contactez nous !</h1>
-                <input type="text" id="name" placeholder="Nom">
-                <input type="email" id="mail" placeholder="Email">
+                <input type="text" id="nom" placeholder="Nom">
+                <input type="email" id="amail" placeholder="Email">
                 <textarea name="message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="envoye" type="submit">ENVOYER</button>
             </form>
-            <button>ENVOYER</button>
         </div>
     </div>
 
     <!-- fin long text -->
 
     <!-- footer -->
-    <footer>
+    <footer class="trasnlasteObserver translateYanimeOUI">
         <div class="containeur-footer">
             <div class="foot_sayna-contsayna">
                 <div class="Pzoom">
@@ -292,6 +361,15 @@
 
     </footer>
     </div>
+    <div class="popuUpFormulaire" style="display: none;">
+        <div class="popInfo">
+            <h1>INFORMATION ENREGISTRER AVEC SUCCESS</h1>
+            <button class="closePop">FERMER</button>
+        </div>
+    </div>
+    <script src="js/animejs.js"></script>
+    <script src="js/valideformulaire.js"></script>
+
 </body>
 
 </html>
